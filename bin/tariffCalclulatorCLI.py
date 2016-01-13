@@ -1,7 +1,7 @@
 '''
 Created on Jan 13, 2016
 simple day/night tariff calculator
-@author: karol
+@author: karcio
 '''
 
 def calculate():
