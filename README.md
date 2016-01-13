@@ -1,1 +1,1 @@
-# DayNightTariffCalculator
+# Day/night tariff calculator
