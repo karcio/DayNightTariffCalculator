@@ -13,6 +13,6 @@ def calculate():
 D_TARIFF_COST = 0.1436
 N_TARIFF_COST = 0.0711 
 
-counterState = input('Insert you counter measurement here: ')
+counterState = float(input('Insert you counter measurement here: '))
 print("Total cost per month: {0:.2f}".format(round(calculate() * 30, 2)))
 print("Total cost per year : {0:.2f}".format(round(calculate() * 365, 2)))
