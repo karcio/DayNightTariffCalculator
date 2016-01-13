@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'tariffCalculatorGUI.ui'
+# Form implementation generated from reading ui file 'design.ui'
 #
 # Created by: PyQt4 UI code generator 4.11.4
 #
@@ -26,6 +26,8 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName(_fromUtf8("MainWindow"))
         MainWindow.resize(240, 320)
+        MainWindow.setMinimumSize(QtCore.QSize(240, 320))
+        MainWindow.setMaximumSize(QtCore.QSize(240, 320))
         self.centralwidget = QtGui.QWidget(MainWindow)
         self.centralwidget.setObjectName(_fromUtf8("centralwidget"))
         self.label = QtGui.QLabel(self.centralwidget)
@@ -57,9 +59,11 @@ class Ui_MainWindow(object):
         self.label_5.setObjectName(_fromUtf8("label_5"))
         self.label_6 = QtGui.QLabel(self.centralwidget)
         self.label_6.setGeometry(QtCore.QRect(120, 190, 57, 14))
+        self.label_6.setText(_fromUtf8(""))
         self.label_6.setObjectName(_fromUtf8("label_6"))
         self.label_7 = QtGui.QLabel(self.centralwidget)
         self.label_7.setGeometry(QtCore.QRect(120, 220, 57, 14))
+        self.label_7.setText(_fromUtf8(""))
         self.label_7.setObjectName(_fromUtf8("label_7"))
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtGui.QMenuBar(MainWindow)
@@ -74,13 +78,11 @@ class Ui_MainWindow(object):
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow", None))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Tariff Calculator", None))
         self.label.setText(_translate("MainWindow", "day tariff in cents", None))
         self.label_2.setText(_translate("MainWindow", "night tariff in cents", None))
         self.pushButton.setText(_translate("MainWindow", "calculate", None))
         self.label_3.setText(_translate("MainWindow", "counter reading per hour", None))
         self.label_4.setText(_translate("MainWindow", "Monthly costs", None))
         self.label_5.setText(_translate("MainWindow", "Yearly costs", None))
-        self.label_6.setText(_translate("MainWindow", "TextLabel", None))
-        self.label_7.setText(_translate("MainWindow", "TextLabel", None))
 
