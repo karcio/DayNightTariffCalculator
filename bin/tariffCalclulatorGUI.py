@@ -33,9 +33,9 @@ class ExampleApp(QtGui.QMainWindow, design.Ui_MainWindow):
         
         calculation = day + night 
         
-        self.label_6.setText(repr(calculation * 30))
-        self.label_7.setText(repr(calculation * 360))
-            
+        self.label_6.setText("%.2f" % float(calculation * 30))
+        self.label_7.setText("%.2f" % float(calculation * 360))
+       
                
 def main():
     app = QtGui.QApplication(sys.argv)  
